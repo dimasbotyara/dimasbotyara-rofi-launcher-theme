@@ -1,13 +1,9 @@
+@import "colors/active.rasi"
+
 * {
-    bg: #1e1e2e;
-    bg-alt: #313244;
-    fg: #cdd6f4;
-    fg-alt: #6c7086;
-    accent: #89b4fa;
-    
     background-color: transparent;
     text-color: @fg;
-    
+
     margin: 0;
     padding: 0;
     spacing: 0;
