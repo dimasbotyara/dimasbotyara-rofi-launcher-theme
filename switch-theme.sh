@@ -32,3 +32,7 @@ fi
 
 cp "$SRC" "$ACTIVE"
 echo "✓ Активная тема: $THEME"
+
+if [[ -f ./switch-style.sh ]]; then
+    bash ./switch-style.sh refresh
+fi

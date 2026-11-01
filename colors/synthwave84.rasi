@@ -1,0 +1,7 @@
+* {
+    bg: #262335;
+    bg-alt: #34294f;
+    fg: #ffffff;
+    fg-alt: #848bbd;
+    accent: #ff7edb;
+}
