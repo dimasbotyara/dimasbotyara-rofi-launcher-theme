@@ -1,0 +1,7 @@
+* {
+    bg: #0f1419;       /* common.bg */
+    bg-alt: #131721;   /* surface */
+    fg: #e6e1cf;       /* common.fg */
+    fg-alt: #5c6773;   /* приглушённый текст */
+    accent: #ffb454;   /* accent (оранжевый) */
+}

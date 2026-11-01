@@ -1,0 +1,7 @@
+* {
+    bg: #303446;       /* base */
+    bg-alt: #414559;   /* surface0 */
+    fg: #c6d0f5;       /* text */
+    fg-alt: #737994;   /* overlay0 */
+    accent: #8caaee;   /* blue */
+}

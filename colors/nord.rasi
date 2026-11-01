@@ -1,0 +1,7 @@
+* {
+    bg: #2e3440;       /* nord0 */
+    bg-alt: #3b4252;   /* nord1 */
+    fg: #eceff4;       /* nord6 */
+    fg-alt: #616e88;   /* nord3 (приглушённый) */
+    accent: #88c0d0;   /* nord8 (frost) */
+}

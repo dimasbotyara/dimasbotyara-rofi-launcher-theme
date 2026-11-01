@@ -1,0 +1,7 @@
+* {
+    bg: #191724;       /* base */
+    bg-alt: #1f1d2e;   /* surface */
+    fg: #e0def4;       /* text */
+    fg-alt: #6e6a86;   /* muted */
+    accent: #c4a7e7;   /* iris */
+}
