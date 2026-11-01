@@ -1,0 +1,85 @@
+* {
+    bg: #1e1e2e;
+    bg-alt: #313244;
+    fg: #cdd6f4;
+    fg-alt: #6c7086;
+    accent: #89b4fa;
+    
+    background-color: transparent;
+    text-color: @fg;
+    
+    margin: 0;
+    padding: 0;
+    spacing: 0;
+
+    font: "JetBrainsMono Nerd Font 10";
+    show-icons: true;
+}
+
+window {
+    background-color: @bg;
+    border: 2px;
+    border-color: @accent;
+    border-radius: 8px;
+    width: 600px;
+    location: center;
+}
+
+inputbar {
+    padding: 12px;
+    spacing: 12px;
+    children: [ icon-search, entry ];
+}
+
+icon-search {
+    expand: false;
+    filename: "search";
+    size: 20px;
+}
+
+entry {
+    placeholder: "Поиск...";
+    placeholder-color: @fg-alt;
+}
+
+message {
+    border: 2px 0 0;
+    border-color: @bg-alt;
+    background-color: @bg-alt;
+}
+
+textbox {
+    padding: 8px 12px;
+}
+
+listview {
+    lines: 8;
+    columns: 1;
+    fixed-height: false;
+    border: 1px 0 0;
+    border-color: @bg-alt;
+}
+
+element {
+    padding: 8px 12px;
+    spacing: 8px;
+}
+
+element normal active {
+    text-color: @accent;
+}
+
+element selected {
+    background-color: @bg-alt;
+    text-color: @accent;
+}
+
+element-icon {
+    size: 24px;
+    vertical-align: 0.5;
+}
+
+element-text {
+    text-color: inherit;
+    vertical-align: 0.5;
+}
